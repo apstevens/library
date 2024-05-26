@@ -13,7 +13,6 @@
 public class Book
 {
     /**
-     * Question 1 b.
      * Add private fields of type String for author, title and id
      * and one of type boolean onLoan.
      */
@@ -23,7 +22,6 @@ public class Book
     private boolean onLoan;
     
     /**
-     * Question 1 c.
      * Constructor for objects of class Book
      * @param anAuthor Author name.
      * @param aTitle Book title.
@@ -39,7 +37,6 @@ public class Book
     }
 
     /**
-     * Question 1 d. i.
      * getter method that returns author name of type String.
      * @return author 
      */
@@ -73,7 +70,6 @@ public class Book
     }
     
     /**
-     * Question 1 d. ii.
      * Setter method sets boolean value.
      * @param loaned 
      */
@@ -83,7 +79,6 @@ public class Book
     } 
     
     /**
-     * Question 1 e.
      * Method to return if the book is available.
      * @return onLoan 
      */
@@ -93,7 +88,6 @@ public class Book
     }
     
     /**
-     * Question 1 e.
      * Returns a string describing the book .
      * @return title + author + onLoan
      */
@@ -103,7 +97,6 @@ public class Book
     }
     
     /**
-     * Question 1 f.
      * Method to check the book has a valid id and returns true if it does.
      * @return true 
      */

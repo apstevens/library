@@ -1,5 +1,4 @@
 /**
- * Question 2 a. create a public class Library.
  * A class to hold details of library books.
  * Books can be added and removed to the library.
  * Books can be checked to see if they are available.
@@ -14,7 +13,6 @@ import java.util.Iterator;
 public class Library
 {
     /**
-     * Question 2 b.
      * Add instance variables an ArrayList of type Book 
      * and name of type String to represent a library. 
      */
@@ -22,7 +20,6 @@ public class Library
     private String name;
 
     /**
-     * Question 2 c.
      * Constructor for objects of class Library
      */
     public Library(String aName)
@@ -33,7 +30,6 @@ public class Library
     }
 
     /**
-     * Question 2 d. i.
      * Add a book to the collection.
      * @param author Name of the author.
      * @param title Title of the book.
@@ -46,7 +42,6 @@ public class Library
     }
 
     /**
-     * Question 2 d. ii.
      * Calculate fine 2% of book cost for each day late.
      * @param price Price of the book.
      * @param days Number of days book is overdue.
@@ -60,7 +55,6 @@ public class Library
     }
     
     /**
-     * Question 2 d. iii.
      * Return an ArrayList of books with matching titles.
      * @param title Book title as a String.
      * @return ArrayList of books in the library matching the search parameter.
@@ -81,7 +75,6 @@ public class Library
     }
     
     /**
-     * Question 2 d. iv.
      * Takes a Book as an argument and returns true if the ID matches that of a book in the library and it is not on loan.
      * @param Book bookToCheck as a Book.
      * @return true.
@@ -99,7 +92,6 @@ public class Library
     }
 
     /**
-     * Question 2 d. v.
      * Lists all books in the library in the order they appear.
      */
     public void listAllBooks()
@@ -114,7 +106,6 @@ public class Library
     }
     
     /**
-     * Question 2 d. vi.
      * Get the first book in the collection with a matching ID and set it to be on loan.
      * @param Book bookToLoan as an object of Book.
      */
@@ -131,7 +122,6 @@ public class Library
     
     
     /**
-     * Question 2 d. vii.
      * Takes a Book as an argument and removes the first book with a matching ID.
      * @param Book bookToRemove.
      */
