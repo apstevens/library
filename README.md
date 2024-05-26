@@ -67,6 +67,7 @@ public double calculateFine(double price, int days): Calculates the fine for an 
 
 To use the library system, create instances of the **Library** and **Book** classes and utilize their methods to manage the collection of books. For example, you can add books to the library, check their availability, and manage loans.
 
+
 \```
 Library library = new Library("City Library");
 library.addBook("George Orwell", "1984", "1234567");
