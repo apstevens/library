@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Library
+comment1.params=aName
+comment1.target=Library(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Library\r\n
+comment2.params=author\ title\ id
+comment2.target=void\ addBook(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Add\ a\ book\ to\ the\ collection.\r\n\ @param\ author\ Name\ of\ the\ author.\r\n\ @param\ title\ Title\ of\ the\ book.\r\n\ @param\ id\ Unique\ ID\ of\ the\ book\ in\ the\ library.\r\n
+comment3.params=price\ days
+comment3.target=double\ calculateFine(double,\ int)
+comment3.text=\r\n\ Calculate\ fine\ 2%\ of\ book\ cost\ for\ each\ day\ late.\r\n\ @param\ price\ Price\ of\ the\ book.\r\n\ @param\ days\ Number\ of\ days\ book\ is\ overdue.\r\n\ @return\ fine\r\n
+comment4.params=title
+comment4.target=java.util.ArrayList\ getMatchingBooks(java.lang.String)
+comment4.text=\r\n\ Return\ an\ ArrayList\ of\ books\ with\ matching\ titles.\r\n\ @param\ title\ Book\ title\ as\ a\ String.\r\n\ @return\ ArrayList\ of\ books\ in\ the\ library\ matching\ the\ search\ parameter.\r\n
+comment5.params=bookToCheck
+comment5.target=boolean\ isAvailable(Book)
+comment5.text=\r\n\ Takes\ a\ Book\ as\ an\ argument\ and\ returns\ true\ if\ the\ ID\ matches\ that\ of\ a\ book\ in\ the\ library\ and\ it\ is\ not\ on\ loan.\r\n\ @param\ Book\ bookToCheck\ as\ a\ Book.\r\n\ @return\ true.\r\n
+comment6.params=
+comment6.target=void\ listAllBooks()
+comment6.text=\r\n\ Lists\ all\ books\ in\ the\ library\ in\ the\ order\ they\ appear.\r\n
+comment7.params=bookToLoan
+comment7.target=void\ loanBook(Book)
+comment7.text=\r\n\ Get\ the\ first\ book\ in\ the\ collection\ with\ a\ matching\ ID\ and\ set\ it\ to\ be\ on\ loan.\r\n\ @param\ Book\ bookToLoan\ as\ an\ object\ of\ Book.\r\n
+comment8.params=bookToRemove
+comment8.target=void\ removeBook(Book)
+comment8.text=\r\n\ Takes\ a\ Book\ as\ an\ argument\ and\ removes\ the\ first\ book\ with\ a\ matching\ ID.\r\n\ @param\ Book\ bookToRemove.\r\n
+numComments=9
